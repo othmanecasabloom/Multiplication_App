@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1512950050685-b1d4ae63d2df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80) no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.form {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: 10px;
+}
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px blue;
+}
+.input::placeholder {
+    color: lightslategray;
+    font-family: sans-serif;
+}
+.btn {
+    padding: 10px;
+    color: white;
+    background: gray;
+    border: none;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+.btn:hover {
+    filter: brightness(0.9);
+}
+.score {
+    text-align: right;
+}
